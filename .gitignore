@@ -1,2 +1,8 @@
 # NPM modules
 node_modules/
+
+# Build file cache
+.cache/
+
+# Dist files
+dist/
