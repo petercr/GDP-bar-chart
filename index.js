@@ -1,3 +1,5 @@
+import * as d3 from "d3";
+
 
 // Fetch Dataset from freeCodeCamp API 
 const fetchData = () =>  {
@@ -5,7 +7,7 @@ const fetchData = () =>  {
   .then(response => response.json())
   .then(data => {
     console.dir(data);
-    d3.select('#container').append('svg')
+    d3.select('container').append('svg')
       .attr('width', "900px")
       .attr('height', '600px')
       .style('background', "#dff0d8");
