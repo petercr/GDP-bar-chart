@@ -1,3 +1,4 @@
+const d3 = require("d3");
 
 // Fetch Dataset from freeCodeCamp API 
 const fetchData = () =>  {
@@ -5,14 +6,7 @@ const fetchData = () =>  {
   .then(response => response.json())
   .then(data => {
     console.dir(data);
-    d3.select('#container').append('svg')
-      .attr('width', "900px")
-      .attr('height', '600px')
-      .style('background', "#dff0d8");
-
-
-
-
+    return data;
   })
   .catch(err => console.log(err));
 }
