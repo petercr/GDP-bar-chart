@@ -1,0 +1,22 @@
+{
+  "name": "gdp-bar-chart",
+  "version": "1.0.0",
+  "description": "A Bar Chart Built with D3 JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercr/GDP-bar-chart.git"
+  },
+  "author": "Peter Cruckshank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petercr/GDP-bar-chart/issues"
+  },
+  "homepage": "https://github.com/petercr/GDP-bar-chart#readme",
+  "dependencies": {
+    "d3": "^5.16.0"
+  }
+}
