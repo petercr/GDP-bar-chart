@@ -1,4 +1,6 @@
-const d3 = require("d3");
+import * as d3 from 'd3';
+
+console.log(d3);
 
 // Fetch Dataset from freeCodeCamp API 
 const fetchData = () =>  {
@@ -11,5 +13,4 @@ const fetchData = () =>  {
   .catch(err => console.log(err));
 }
 
-fetchData();
-
+const d3Data = fetchData();
